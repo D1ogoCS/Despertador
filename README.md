@@ -22,6 +22,41 @@ Neste trabalho prático, o objetivo é desenvolver um sistema de gestão de proc
 - Linguagem C
 
 ### Resultados:
-
-
 O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para Linux). O WSL é um recurso do Windows que permite executar um ambiente Linux no computador com sistema operativo Windows, sem a necessidade de utilizar uma máquina virtual.
+
+![Nautilus](https://github.com/D1ogoCS/Despertador/blob/main/imagens/ubuntu.png)
+
+*Nautilus*
+
+![Código no processador de texto do Ubuntu](https://github.com/D1ogoCS/Despertador/blob/main/imagens/ubuntu2.png)
+
+*Código no processador de texto do Ubuntu*
+
+![Menu](https://github.com/D1ogoCS/Despertador/blob/main/imagens/menu.png)
+
+*Menu*
+
+![Definir despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao1.png)
+
+*Definir despertador*
+
+![Desligar despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao2.png)
+
+*Desligar despertador*
+
+![Silenciar alarme](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao3.png)
+
+*Silenciar alarme*
+
+![Ativar alarme](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao4.png)
+ 
+*Ativar alarme*
+
+![Ver despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao5.png)
+ 
+*Ver despertador*
+
+
+
+
+

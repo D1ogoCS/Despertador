@@ -15,9 +15,13 @@ Neste trabalho prático, o objetivo é desenvolver um sistema de gestão de proc
 - O programa é capaz de executar outras tarefas concorrentemente enquanto aguarda o horário de despertar como por exemplo: alterar a hora de despertar, desligar ou suspender o alarme
 
 ### Ferramentas utilizadas:
-- Visual Studio Code
+- Ubuntu: Sistema operativo baseado em Linux
+- Nautilus: Gestor de ficheiros padrão do Ubuntu
 
 ### Tecnologias utilizadas:
 - Linguagem C
 
 ### Resultados:
+
+
+O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para Linux). O WSL é um recurso do Windows que permite executar um ambiente Linux no computador com sistema operativo Windows, sem a necessidade de utilizar uma máquina virtual.

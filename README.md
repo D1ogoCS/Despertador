@@ -14,4 +14,10 @@ Neste trabalho prático, o objetivo é desenvolver um sistema de gestão de proc
 - Quando o horário de despertar é alcançado, o programa exibe a mensagem "Hora de acordar!"
 - O programa é capaz de executar outras tarefas concorrentemente enquanto aguarda o horário de despertar como por exemplo: alterar a hora de despertar, desligar ou suspender o alarme
 
+### Ferramentas utilizadas:
+Visual Studio Code
+
+### Tecnologias utilizadas:
+Linguagem C
+
 ### Resultados:

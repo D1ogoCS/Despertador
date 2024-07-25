@@ -21,6 +21,13 @@ Neste trabalho prático, o objetivo é desenvolver um sistema de gestão de proc
 ### Tecnologias utilizadas:
 - Linguagem C
 
+### Descrição:
+
+O programa possui três funções fundamentais que são:
+- mostrarHoraAtual(): Possui um ciclo infinito para executar a função __menu()__ de minuto a minuto, mas a função __menu()__ só é executada se o utilizador não estiver a definir um horário de despertar
+- alarme(): Possui um ciclo infinito. Foi criada uma variável do tipo *localtime*, que permite verificar se a hora atual é igual à hora que o utilizador definiu para despertar. Assim que a hora atual for igual à hora de despertar, é impresso no terminal a mensagem “Hora de acordar! Clique 9 para parar.” e se estiver a usar o código no Ubunto é também emitido um som de alerta, mas isto só acontece se o utilizador tiver as notificações sonoras ativas. Para o utilizador parar a mensagem de despertar basta digitar “9” no terminal o que fará mudar o valor da variável __dslMsg__ e por consequência interromper o alarme
+- menu(): Sempre que é executada, imprime no ecrã a hora atual do sistema, assim como o menu com as funções do despertador
+
 ### Resultados:
 O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para Linux). O WSL é um recurso do Windows que permite executar um ambiente Linux no computador com sistema operativo Windows, sem a necessidade de utilizar uma máquina virtual.
 
@@ -55,8 +62,3 @@ O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para L
 ![Ver despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao5.png)
  
 *Ver despertador*
-
-
-
-
-

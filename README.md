@@ -43,13 +43,19 @@ O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para L
 
 *Menu*
 
+Se o utilizador escolher a opção “1-Definir Despertador”, consegue definir um horário de despertar para definir as horas com um valor no intervalo de 0 a 23 e os minutos com um valor no intervalo de 0 a 59. Sempre que o valor de uma destas variáveis sair do intervalo permitido, é indicado ao utilizador para o introduzir novamente o horário de despertar. Após o horário definido, a *thread* do despertador é criada e o horário escolhido para despertar é impresso no terminal e a variável __notificacaoSonora__ é também ativa.
+
 ![Definir despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao1.png)
 
 *Definir despertador*
 
+Se o utilizador escolher a opção “2-Desligar despertador”, a *thread* do despertador é terminada e é impresso no terminal uma mensagem a dizer que o alarme foi desligado.
+
 ![Desligar despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao2.png)
 
 *Desligar despertador*
+
+Se o utilizador escolher a opção “3-Silenciar Alarme” ou a opção “4-Ativar Alarme” permite escolher se as notificações estão ativas ou não e imprime no terminal a respetiva escolha.
 
 ![Silenciar alarme](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao3.png)
 
@@ -58,6 +64,8 @@ O Ubuntu foi instalado no computador atraves do WSL(Subsistema do Windows para L
 ![Ativar alarme](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao4.png)
  
 *Ativar alarme*
+
+Se o utilizador escolher a opção “5-Ver Despertador”, é impresso no terminal o horário de despertar definido que o utilizador escolheu.
 
 ![Ver despertador](https://github.com/D1ogoCS/Despertador/blob/main/imagens/opcao5.png)
  
